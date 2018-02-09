@@ -1,6 +1,11 @@
+Getting https://github.com/ericmjl/Circos/blob/master/examples.ipynb to work in Binder.
+Needed old networkx and so needed Python 2.
+
+-----
+
 # Specifying a Python 2 environment with `runtime.txt`
 
-[![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/binder-examples/python2_runtime/master)
+[![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/fomightez/ericmjl-Circos_Binderized/master)
 
 We can specify various runtime parameters with a `runtime.txt` file. In this
 repository, we demonstrate how to install python 2 with the environment.
@@ -19,3 +24,5 @@ as this defines which kernel Binder will use when a notebook is opened.
 If you *also* wish to install python 3 dependencies, you may do so
 by including a file called `requirements3.txt`. The packages
 inside will be installed into the python 3 environment.
+
+**!pip2 install** works in the notebook.
